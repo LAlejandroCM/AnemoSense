@@ -5,55 +5,7 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pinout Sensores</title>
 
-<style>
-body{
-    background:#0d1117;
-    color:#f0f6fc;
-    font-family:Arial, Helvetica, sans-serif;
-    margin:40px;
-}
-
-h1{
-    border-bottom:1px solid #30363d;
-    padding-bottom:10px;
-}
-
-h2{
-    margin-top:35px;
-    color:#ffffff;
-}
-
-table{
-    border-collapse:collapse;
-    margin-top:15px;
-    margin-bottom:25px;
-}
-
-th,td{
-    border:1px solid #8b949e;
-    padding:10px 18px;
-    text-align:center;
-}
-
-th{
-    background:#161b22;
-}
-
-tr:nth-child(even){
-    background:#161b22;
-}
-
-.container{
-    display:flex;
-    gap:40px;
-    flex-wrap:wrap;
-}
-</style>
-
-</head>
-<body>
 
 <h1>📌 Pinout</h1>
 
