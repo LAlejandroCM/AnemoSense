@@ -8,7 +8,7 @@ Su objetivo es la recolección de datos de:
 4. CO2 (ppm)
 Esto lo consigue através de los sensores BME680 y Sensirion SCD41.
 
-<h1<Uso objetivo</h1>
+<h1>Uso objetivo</h1>
 
 El dispositivo permite consultar en cualquier momento la calidad del aire en un ambiente cerrado, proporcionando información relevante para que el usuario pueda tomar medidas con el objetivo de mitigar los posibles problemas y mejorar las condiciones del entorno.
 Está hecho para catedráticos, que podrán consultar información sobre la calidad de aire en cualquier momento y contrarrestar los posibles efectos negativos del ambiente, y los estudiantes, quienes se beneficiarán de la mejoría del ambiente al tener mejores condiciones para el estudio y el aprendizaje.
