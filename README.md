@@ -7,8 +7,9 @@ Su objetivo es la recolección de datos de:
 3. Presión atmosférica (Pa)
 4. CO2 (ppm)
 
-Esto lo consigue através de los sensores BME680 y Sensirion SCD41.
-Cuenta con una pantalla TFT GC9A01 para leer los datos medidos por los sensores.
+Esto lo consigue através de los sensores BME680 y Sensirion SCD41, con sus módulos embebidos en la PCB.
+
+Cuenta con un módulo de una pantalla TFT GC9A01 para leer los datos medidos por los sensores.
 
 <h1>Uso objetivo</h1>
 
