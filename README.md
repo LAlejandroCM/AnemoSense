@@ -101,40 +101,38 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 </tr>
 
 <tr>
-    <th>RST</th>
-    <th>GPIO4</th>
+    <td>RST</td>
+    <td>GPIO4</td>
 </tr>
 
 <tr>
-    <th>CS</th>
-    <th>GPIO5</th>
+    <td>CS</td>
+    <td>GPIO5</td>
 </tr>
 
 <tr>
-    <th>DC</th>
-    <th>GPIO2</th>
+    <td>DC</td>
+    <td>GPIO2</td>
 </tr>
 
 <tr>
-    <th>SDA</th>
-    <th>GPIO23</th>
+    <td>SDA</td>
+    <td>GPIO23</td>
 </tr>
 
 <tr>
-    <th>SCL</th>
-    <th>GPIO18</th>
+    <td>SCL</td>
+    <td>GPIO18</td>
 </tr>
 
 <tr>
-    <th>GND</th>
-    <th>GND</th>
+    <td>GND</td>
+    <td>GND</td>
 </tr>
 
 <tr>
-    <th>VCC</th>
-    <th>3.3V</th>
-</tr>
-
+    <td>VCC</td>
+    <td>3.3V</td>
 
 </table>
 
