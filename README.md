@@ -9,7 +9,7 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 
 <h1>📌 Pinout</h1>
 
-<h2>BME680 - Comunicación I²C</h2>
+<h2>BME680 - Comunicación I²C 0x77</h2>
 
 <table>
 
@@ -55,7 +55,7 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 
 </table>
 
-<h2>SCD41 - Comunicación I²C</h2>
+<h2>SCD41 - Comunicación I²C 0x62</h2>
 
 <table>
 
