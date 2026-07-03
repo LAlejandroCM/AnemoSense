@@ -6,6 +6,7 @@ Su objetivo es la recolección de datos de:
 2. Humedad (%)
 3. Presión atmosférica (Pa)
 4. CO2 (ppm)
+
 Esto lo consigue através de los sensores BME680 y Sensirion SCD41.
 
 <h1>Uso objetivo</h1>
