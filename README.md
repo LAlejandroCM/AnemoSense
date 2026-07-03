@@ -133,6 +133,7 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 <tr>
     <td>VCC</td>
     <td>3.3V</td>
+</tr>
 
 </table>
 
