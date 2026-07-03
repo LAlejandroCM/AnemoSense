@@ -1,11 +1,17 @@
 # AnemoSense
 Dispositivo IoT de calidad de aire en espacios cerrados.
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Utiliza los conocimientos de diseño de dispositivos electrónicos aprendidos en el curso "Diseño y construcción de dispositivos electónicos" (DYCDE).
+Su objetivo es la recolección de datos de:
+1. Temperatura (°C)
+2. Humedad (%)
+3. Presión atmosférica (Pa)
+4. CO2 (ppm)
+Esto lo consigue através de los sensores BME680 y Sensirion SCD41.
 
+<h1<Uso objetivo</h1>
+
+El dispositivo permite consultar en cualquier momento la calidad del aire en un ambiente cerrado, proporcionando información relevante para que el usuario pueda tomar medidas con el objetivo de mitigar los posibles problemas y mejorar las condiciones del entorno.
+Está hecho para catedráticos, que podrán consultar información sobre la calidad de aire en cualquier momento y contrarrestar los posibles efectos negativos del ambiente, y los estudiantes, quienes se beneficiarán de la mejoría del ambiente al tener mejores condiciones para el estudio y el aprendizaje.
 
 <h1>📌 Pinout</h1>
 
