@@ -1,6 +1,6 @@
 # AnemoSense
 Dispositivo IoT de calidad de aire en espacios cerrados.
-Utiliza los conocimientos de diseño aprendidos en el curso "Diseño y Construcción de Dispositivos Electónicos" (DYCDE).
+Utiliza los conocimientos de diseño aprendidos en el curso "Diseño y Construcción de Dispositivos Electrónicos" (DYCDE).
 Su objetivo es la recolección de datos de:
 1. Temperatura (°C)
 2. Humedad (%)
