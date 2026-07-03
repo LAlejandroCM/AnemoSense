@@ -35,27 +35,25 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 
 <tr>
     <td>SDO</td>
-    <td>3.3V - pull up resistor</td>
+    <td>3.3V</td>
 </tr>
 
 <tr>
     <td>CSB</td>
-    <td>3.3V - pull up resistor</td>
+    <td>3.3V</td>
 </tr>
 
 <tr>
     <td>SDI</td>
-    <td>GPIO21 - pull up resistor</td>
+    <td>GPIO21</td>
 </tr>
 
 <tr>
     <td>SCL</td>
-    <td>GPIO22 - pull up resistor</td>
+    <td>GPIO22</td>
 </tr>
 
 </table>
-
-
 
 <h2>SCD41 - Comunicación I²C</h2>
 
@@ -83,12 +81,58 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 
 <tr>
     <td>SDA</td>
-    <td>GPIO21 - pull up resistor</td>
+    <td>GPIO21</td>
 </tr>
 
 <tr>
     <td>SCL</td>
-    <td>GPIO22 - pull uop resistor</td>
+    <td>GPIO22</td>
+</tr>
+
+</table>
+
+<h2>GC9A01 - Comunicación SPI</h2>
+
+<table>
+
+<tr>
+    <th>SCD41</th>
+    <th>ESP32</th>
+</tr>
+
+<tr>
+    <th>RST</th>
+    <th>GPIO4</th>
+</tr>
+
+<tr>
+    <th>CS</th>
+    <th>GPIO5</th>
+</tr>
+
+<tr>
+    <th>DC</th>
+    <th>GPIO2</th>
+</tr>
+
+<tr>
+    <th>SDA</th>
+    <th>GPIO23</th>
+</tr>
+
+<tr>
+    <th>SCL</th>
+    <th>GPIO18</th>
+</tr>
+
+<tr>
+    <th>GND</th>
+    <th>GND</th>
+</tr>
+
+<tr>
+    <th>VCC</th>
+    <th>3.3V</th>
 </tr>
 
 
