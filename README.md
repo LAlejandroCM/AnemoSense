@@ -34,23 +34,23 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 </tr>
 
 <tr>
-    <td>SDO</td>
+    <td>SDO - pull up resistor</td>
     <td>3.3V</td>
 </tr>
 
 <tr>
-    <td>CSB</td>
+    <td>CSB - pull up resistor</td>
     <td>3.3V</td>
 </tr>
 
 <tr>
     <td>SDI</td>
-    <td>GPIO21</td>
+    <td>GPIO21 - pull up resistor</td>
 </tr>
 
 <tr>
     <td>SCL</td>
-    <td>GPIO22</td>
+    <td>GPIO22 - pull up resistor</td>
 </tr>
 
 </table>
@@ -67,24 +67,30 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 </tr>
 
 <tr>
-    <td>VIN</td>
+    <td>VDD</td>
     <td>3.3V</td>
 </tr>
 
-<tr>
+tr>
+    <td>VDDH</td>
+    <td>3.3V</td>
+</tr>
+
+tr>
     <td>GND</td>
     <td>GND</td>
 </tr>
 
-<tr>
+tr>
     <td>SDA</td>
-    <td>GPIO21</td>
+    <td>GPIO21 - pull up resistor</td>
 </tr>
 
-<tr>
+tr>
     <td>SCL</td>
-    <td>GPIO22</td>
+    <td>GPIO22 - pull uop resistor</td>
 </tr>
+
 
 </table>
 
