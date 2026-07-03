@@ -9,38 +9,6 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 
 <h1>📌 Pinout</h1>
 
-<h2>AnemoSense</h2>
-
-<table>
-<tr>
-    <th>Señal</th>
-    <th>PIN</th>
-</tr>
-
-<tr>
-    <td>VCC</td>
-    <td>3.3V</td>
-</tr>
-
-<tr>
-    <td>GND</td>
-    <td>GND</td>
-</tr>
-
-<tr>
-    <td>TX</td>
-    <td>RX2 (GPIO16)</td>
-</tr>
-
-<tr>
-    <td>RX</td>
-    <td>TX2 (GPIO17)</td>
-</tr>
-
-</table>
-
-
-
 <h2>BME680 - Comunicación I²C</h2>
 
 <table>
@@ -51,7 +19,7 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 </tr>
 
 <tr>
-    <td>VIN</td>
+    <td>VDD</td>
     <td>3.3V</td>
 </tr>
 
@@ -61,7 +29,22 @@ Dispositivo IoT de calidad de aire en espacios cerrados.
 </tr>
 
 <tr>
-    <td>SDA</td>
+    <td>VDDIO</td>
+    <td>3.3V</td>
+</tr>
+
+<tr>
+    <td>SDO</td>
+    <td>3.3V</td>
+</tr>
+
+<tr>
+    <td>CSB</td>
+    <td>3.3V</td>
+</tr>
+
+<tr>
+    <td>SDI</td>
     <td>GPIO21</td>
 </tr>
 
