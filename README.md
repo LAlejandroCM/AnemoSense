@@ -45,7 +45,7 @@ h1>📷 Imágenes</h1>
 <h2>Dashboard</h2>
 
 <p align="center">
-  <img src="images/dashboard.png" alt="Dashboard de monitoreo" width="700">
+  <img src="images/dashboard.jpg" alt="Dashboard de monitoreo" width="700">
 </p>
 
 <h1>📌 Pinout</h1>
