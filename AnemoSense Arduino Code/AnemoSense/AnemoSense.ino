@@ -8,20 +8,22 @@
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME680.h>
 #include <SensirionI2cScd4x.h>
+#include <ArduinoJson.h>
 
 //==================== WIFI ====================
 const char* ssid = "";          //Nombre de red WIFI
 const char* password = "";      //Constraseña de red WIFI
 //==================== MQTT ====================
 const char* mqtt_server = "broker.hivemq.com";
+const char* mqtt_topic = "DYCDE/AnemoSense/datos"; // TOPIC ÚNICO
 
 WiFiClient espClient;
 PubSubClient client(espClient);
 
 //==================== TFT ====================
-#define TFT_CS   5
-#define TFT_DC   2
-#define TFT_RST  4
+#define TFT_CS     5
+#define TFT_DC     2
+#define TFT_RST    4
 
 Adafruit_GC9A01A tft(TFT_CS, TFT_DC, TFT_RST);
 
@@ -60,7 +62,7 @@ float scdHum = 0;
 unsigned long ultimoIntentoConexion = 0;
 const unsigned long intervaloConexion = 10000; // Reintentar red cada 10 segundos
 
-// NUEVOS INTERVALOS SOLICITADOS
+// INTERVALOS
 unsigned long ultimaLecturaBME = 0;
 const unsigned long intervaloBME = 3000; // Leer BME680 cada 3 segundos
 
@@ -186,24 +188,39 @@ void loop() {
     co2 = 0;
   }
 
-  //========== PUBLICAR POR MQTT (Cada 10 segundos) ==========
+  //========== PUBLICAR POR MQTT EN FORMATO NUMÉRICO DE PANTALLA (Cada 10 segundos) ==========
   if (client.connected() && (tiempoActual - ultimoEnvioMQTT >= intervaloMQTT)) {
     ultimoEnvioMQTT = tiempoActual;
-    char buffer[32];
     
-    dtostrf(temperatura, 1, 2, buffer);
-    client.publish("DYCDE/AnemoSense/temp", buffer);
+    StaticJsonDocument<200> doc;
 
-    dtostrf(humedad, 1, 2, buffer);
-    client.publish("DYCDE/AnemoSense/hum", buffer);
+    // Formatear numéricamente igual que en la pantalla TFT (o asignar null si está OFF)
+    if (bmePresente) {
+      doc["temperatura"] = serialized(String(temperatura, 1)); // 1 decimal
+      doc["humedad"]     = serialized(String(humedad, 1));     // 1 decimal
+      doc["presion"]     = serialized(String(presion, 0));     // Sin decimales
+    } else {
+      doc["temperatura"] = nullptr;
+      doc["humedad"]     = nullptr;
+      doc["presion"]     = nullptr;
+    }
 
-    dtostrf(presion, 1, 2, buffer);
-    client.publish("DYCDE/AnemoSense/pres", buffer);
+    if (scdPresente) {
+      doc["co2"] = co2; // Entero sin decimales
+    } else {
+      doc["co2"] = nullptr;
+    }
 
-    sprintf(buffer, "%u", co2);
-    client.publish("DYCDE/AnemoSense/co2", buffer);
-    
-    Serial.println("Datos publicados en MQTT.");
+    // Serializar a buffer e imprimir/enviar
+    char jsonBuffer[200];
+    serializeJson(doc, jsonBuffer);
+
+    if (client.publish(mqtt_topic, jsonBuffer)) {
+      Serial.print("Datos JSON numéricos publicados: ");
+      Serial.println(jsonBuffer);
+    } else {
+      Serial.println("Error al publicar JSON en MQTT.");
+    }
   }
 
   //========== RENDERIZADO EN PANTALLA TFT (Cada 2 segundos) ==========
