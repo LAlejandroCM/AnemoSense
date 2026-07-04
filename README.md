@@ -42,6 +42,10 @@ https://team-christian-carrillo-alecarrillomonroybach-44b9-79d6cf2b.flowfuse.clo
   <img src="images/dashboard.jpg" alt="Dashboard de monitoreo" width="700">
 </p>
 
+<p align="center">
+  <img src="images/datos.jpg" alt="Dashboard datos" width="700">
+</p>
+
 <h1>📌 Pinout</h1>
 
 <h2>BME680 - Comunicación I²C 0x77</h2>
