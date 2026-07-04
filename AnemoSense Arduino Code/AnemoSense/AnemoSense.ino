@@ -8,7 +8,7 @@
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME680.h>
 #include <SensirionI2cScd4x.h>
-#include <ArduinoJson.h>
+#include <ArduinoJson.h> // Librería para el manejo de JSON
 
 //==================== WIFI ====================
 const char* ssid = "";          //Nombre de red WIFI
