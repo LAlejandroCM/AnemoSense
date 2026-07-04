@@ -192,16 +192,16 @@ void loop() {
     char buffer[32];
     
     dtostrf(temperatura, 1, 2, buffer);
-    client.publish("DYCDE/CrCa/temp", buffer);
+    client.publish("DYCDE/AnemoSense/temp", buffer);
 
     dtostrf(humedad, 1, 2, buffer);
-    client.publish("DYCDE/CrCa/hum", buffer);
+    client.publish("DYCDE/AnemoSense/hum", buffer);
 
     dtostrf(presion, 1, 2, buffer);
-    client.publish("DYCDE/CrCa/pres", buffer);
+    client.publish("DYCDE/AnemoSense/pres", buffer);
 
     sprintf(buffer, "%u", co2);
-    client.publish("DYCDE/CrCa/co2", buffer);
+    client.publish("DYCDE/AnemoSense/co2", buffer);
     
     Serial.println("Datos publicados en MQTT.");
   }
