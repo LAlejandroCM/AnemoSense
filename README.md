@@ -18,14 +18,6 @@ El dispositivo permite consultar en cualquier momento la calidad del aire en un 
 
 Está hecho para catedráticos, que podrán consultar información sobre la calidad de aire en cualquier momento y contrarrestar los posibles efectos negativos del ambiente, y los estudiantes, quienes se beneficiarán de la mejoría del ambiente al tener mejores condiciones para el estudio y el aprendizaje.
 
-h1>📷 Imágenes</h1>
-
-<h2>Vista del dispositivo</h2>
-
-<p align="center">
-  <img src="images/anemosense.jpg" alt="AnemoSense" width="500">
-</p>
-
 <h2>PCB</h2>
 
 <p align="center">
