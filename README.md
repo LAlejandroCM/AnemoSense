@@ -12,6 +12,8 @@ Esto lo consigue através de los sensores BME680 y Sensirion SCD41, con sus mód
 
 Cuenta con un módulo de una pantalla TFT GC9A01 para leer los datos medidos por los sensores.
 
+Utiliza conexión a internet para enviar datos a un servidor de MQTT, almacenar las mediciones en una base de datos de Firestore y organizar la información en una Dashboard.
+
 <h1>Uso objetivo</h1>
 
 El dispositivo permite consultar en cualquier momento la calidad del aire en un ambiente cerrado, proporcionando información relevante para que el usuario pueda tomar medidas con el objetivo de mitigar los posibles problemas y mejorar las condiciones del entorno.
