@@ -12,7 +12,7 @@ Esto lo consigue através de los sensores BME680 y Sensirion SCD41, con sus mód
 
 Cuenta con un módulo de una pantalla TFT GC9A01 para leer los datos medidos por los sensores.
 
-Utiliza conexión a internet para enviar datos a un servidor de MQTT, almacenar las mediciones en una base de datos de Firestore y organizar la información en una Dashboard.
+Utiliza conexión a internet por medio del ESP32 para enviar datos a un servidor de MQTT, almacenar las mediciones en una base de datos de Firestore y organizar la información en una Dashboard.
 
 <h1>Uso objetivo</h1>
 
