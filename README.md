@@ -20,34 +20,6 @@ El dispositivo permite consultar en cualquier momento la calidad del aire en un 
 
 Está hecho para catedráticos, que podrán consultar información sobre la calidad de aire en cualquier momento y contrarrestar los posibles efectos negativos del ambiente, y los estudiantes, quienes se beneficiarán de la mejoría del ambiente al tener mejores condiciones para el estudio y el aprendizaje.
 
-<h2>PCB</h2>
-
-<p align="center">
-  <img src="images/pcb1.jpg" alt="PCB de AnemoSense(Frente)" width="500">
-</p>
-
-<p align="center">
-  <img src="images/pcb2.jpg" alt="PCB de AnemoSense(Detrás)" width="500">
-</p>
-
-<h2>Interfaz en la pantalla</h2>
-
-<p align="center">
-  <img src="images/display.jpg" alt="Interfaz del dispositivo" width="300">
-</p>
-
-<h2>Dashboard</h2>
-
-https://team-christian-carrillo-alecarrillomonroybach-44b9-79d6cf2b.flowfuse.cloud/dashboard/mediciones
-
-<p align="center">
-  <img src="images/dashboard.jpg" alt="Dashboard de monitoreo" width="700">
-</p>
-
-<p align="center">
-  <img src="images/datos.jpg" alt="Dashboard datos" width="700">
-</p>
-
 <h1>📌 Pinout</h1>
 
 <h2>BME680 - Comunicación I²C 0x77</h2>
@@ -177,6 +149,34 @@ https://team-christian-carrillo-alecarrillomonroybach-44b9-79d6cf2b.flowfuse.clo
 </tr>
 
 </table>
+
+<h2>Dashboard</h2>
+
+https://team-christian-carrillo-alecarrillomonroybach-44b9-79d6cf2b.flowfuse.cloud/dashboard/mediciones
+
+<p align="center">
+  <img src="images/dashboard.jpg" alt="Dashboard de monitoreo" width="700">
+</p>
+
+<p align="center">
+  <img src="images/datos.jpg" alt="Dashboard datos" width="700">
+</p>
+
+<h2>PCB</h2>
+
+<p align="center">
+  <img src="images/pcb1.jpg" alt="PCB de AnemoSense(Frente)" width="500">
+</p>
+
+<p align="center">
+  <img src="images/pcb2.jpg" alt="PCB de AnemoSense(Detrás)" width="500">
+</p>
+
+<h2>Interfaz en la pantalla</h2>
+
+<p align="center">
+  <img src="images/display.jpg" alt="Interfaz del dispositivo" width="300">
+</p>
 
 <h1>Contacto</h1>
 
