@@ -275,7 +275,7 @@ void loop() {
     tft.print("WIFI");
 
     // Imprimir Estado MQTT
-    tft.setCursor(135, 205);
+    tft.setCursor(130, 205);
     if (client.connected()) {
       tft.setTextColor(COLOR_OK);
     } else {
