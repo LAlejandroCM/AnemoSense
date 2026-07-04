@@ -36,6 +36,8 @@ Está hecho para catedráticos, que podrán consultar información sobre la cali
 
 <h2>Dashboard</h2>
 
+https://team-christian-carrillo-alecarrillomonroybach-44b9-79d6cf2b.flowfuse.cloud/dashboard/mediciones
+
 <p align="center">
   <img src="images/dashboard.jpg" alt="Dashboard de monitoreo" width="700">
 </p>
