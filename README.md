@@ -181,7 +181,7 @@ https://team-christian-carrillo-alecarrillomonroybach-44b9-79d6cf2b.flowfuse.clo
 <h1>Licencia</h1>
 
 <p align="center">
-  <img src="images/oshw_facts.png" width="300">
+  <img src="images/oshw_facts.png" width="210">
 </p>
 
 <h1>Contacto</h1>
