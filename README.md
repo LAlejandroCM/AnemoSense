@@ -184,6 +184,8 @@ https://team-christian-carrillo-alecarrillomonroybach-44b9-79d6cf2b.flowfuse.clo
   <img src="images/oshw_facts.png" width="210">
 </p>
 
+![OSHW Certification](images/oshw-certification-mark.svg)
+
 <h1>Contacto</h1>
 
 24000186@galileo.edu
